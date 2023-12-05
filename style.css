@@ -1,0 +1,106 @@
+.item-1 { grid-area: Zerodha; }
+.item-2 { grid-area: Signup; }
+.item-3 { grid-area: About; }
+.item-4 { grid-area: Products; }
+.item-5 { grid-area: Support; }
+.item-6 { grid-area: Pricing; }
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+.Navbar {
+    display: grid;
+    padding: 25px 70px;
+    grid-gap: 15px;
+    grid-template-areas:
+    'Empty Zerodha Zerodha Zerodha Zerodha Signup About Products Support Pricing'
+  }
+
+.logo-img {
+    max-height: 17px;
+    position: relative;
+}
+.Navbar > h4 {
+    color: #666;
+    font-size: 17px;
+}
+
+
+/* Hero Section CSS */
+
+.Hero-Section > .hero-img {
+    max-height: 60rem;
+    max-width: 100vh;
+    padding-top: 70px;
+
+}
+
+.Hero-Section  {  
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+}
+
+.text-container {
+    margin-top: 20px; /* Adjust as needed */
+}
+
+#Tagline {
+    margin-top: 10px; /* Add some space between image and text */
+    font-size: 45px;
+}
+
+#Text-Tagline {
+    color: #666;
+    padding-top: 20px;
+
+}
+
+.Signup {
+    margin-top: 40px; /* Add space between text and button */
+}
+
+
+
+/*  Second Section CSS */
+.Second-Section {
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    gap: 100px;
+}
+
+ .largest-broker{
+    width: 50%; 
+    height: auto; 
+    max-width: 100%;
+    padding-left: 5%;
+}
+
+.Second-Section-Text {
+   width:50%;
+   height: 100vh; 
+   text-align: center; 
+   padding-left: 50px;
+}
+
+
+/* THIRD CONTAINER */
+
+.Third-Container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#ecosystem {
+    max-width: 850px;
+    height: auto;
+    width: 100%;
+}
+ 
