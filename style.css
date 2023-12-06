@@ -16,14 +16,14 @@ body, html {
     grid-gap: 15px;
     grid-template-areas:
     'Empty Zerodha Zerodha Zerodha Zerodha Signup About Products Support Pricing'
-  }
+}
 
 .logo-img {
     max-height: 17px;
     position: relative;
 }
 .Navbar > h4 {
-    color: #666;
+    color: #d5cbcb;
     font-size: 17px;
 }
 
@@ -56,7 +56,7 @@ flex-direction: column;
 }
 
 #Text-Tagline {
-    color: #666;
+    color: #d5cbcb;
     padding-top: 20px;
 
 }
@@ -73,6 +73,7 @@ flex-direction: column;
     flex-direction: row;
     padding: 10%;
     gap: 100px;
+    margin: 5%;
 }
 
  .largest-broker{
@@ -104,3 +105,53 @@ flex-direction: column;
     width: 100%;
 }
  
+
+.Links-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+} 
+a:link {
+    text-decoration: none;
+
+}
+a:hover {
+    color: black;
+}
+
+
+
+
+/* Fourth Container */
+
+.fourth-container {
+    display: flex;
+    padding-top:40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+
+}
+
+.Left-container > p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    max-width: 70%;
+ 
+}
+
+.right-container > h1 p {
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
